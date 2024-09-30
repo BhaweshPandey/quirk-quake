@@ -1,0 +1,122 @@
+.unmatchedCreativityOuterContainer {
+  position: relative;
+  width: 100%;
+  gap: 100px;
+  margin-top:100px;
+}
+.unmatchedCreativityText {
+  font-size: 48px;
+  font-weight: 700;
+  width: 364px;
+  line-height: 60px;
+  margin-top:40px;
+}
+.unmatchedCreativityDescription {
+  width: 80%;
+  font-size: 18px;
+}
+.unmatchedCreativityTextTypography {
+  font-size: 48px;
+  font-weight: 700;
+}
+.unmatchedCreativityBottomTextSection {
+  justify-content: space-between;
+  width: 90%;
+}
+.unmatchedCreativityOuterSection {
+  justify-content: space-between;
+  width: 50%;
+  gap: 20px;
+}
+.unmatchedCreativityParagraphSize {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1165px) {
+  .unmatchedCreativityOuterContainer {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .unmatchedCreativityImageSection {
+    margin-inline: auto;
+  }
+  .unmatchedCreativityOuterSection {
+    width: 100%;
+  }
+  .unmatchedCreativityRightContainer {
+    margin-inline: auto;
+    text-align: center;
+  }
+  .unmatchedCreativityText {
+    width: 100%;
+    margin-top:20px;
+  }
+  .unmatchedCreativityDescription {
+    width: 100%;
+  }
+  .unmatchedCreativityTextTypography {
+    width: 100%;
+    margin-inline: auto;
+    text-align: center;
+  }
+  .unmatchedCreativityParagraphSize {
+    width: 100%;
+    text-align: center;
+  }
+  .unmatchedCreativityBottomTextSection {
+    width: 100%;
+    flex-direction: column;
+    margin-inline: auto;
+  }
+  .companyStats {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .unmatchedCreativityOuterContainer {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .unmatchedCreativityImageSection {
+    margin-inline: auto;
+  }
+  .unmatchedCreativityOuterSection {
+    width: 100%;
+  }
+  .unmatchedCreativityRightContainer {
+    margin-inline: auto;
+    text-align: center;
+  }
+  .unmatchedCreativityText {
+    width: 100%;
+    margin-top:20px;
+  }
+  .unmatchedCreativityDescription {
+    width: 100%;
+  }
+  .unmatchedCreativityTextTypography {
+    width: 100%;
+    margin-inline: auto;
+    text-align: center;
+  }
+  .unmatchedCreativityParagraphSize {
+    width: 100%;
+    text-align: center;
+  }
+  .unmatchedCreativityBottomTextSection {
+    width: 100%;
+    flex-direction: column;
+    margin-inline: auto;
+  }
+  .companyStats {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .unmatchedCreativityOuterContainer {
+      flex-direction: column;
+      gap: 0px;
+    }
+  }

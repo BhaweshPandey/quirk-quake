@@ -1,0 +1,186 @@
+.boxBackground {
+  margin-top: 50px;
+  background-image: url('/demo/quirk-quake/image/child_img.png'), url('/demo/quirk-quake/image/car_img.png'),
+    url('/demo/quirk-quake/image/camera_img.png');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position:
+    right top,
+    55% 100%,
+    right bottom;
+  background-size:
+    720px 380px,
+    20% 220px,
+    34% 220px;
+  height: 620px;
+  display: flex;
+  flex-direction: row;
+}
+.boxBackgroundRtl {
+  margin-top: 50px;
+  background-image: url('/demo/quirk-quake/image/child_img.png'), url('/demo/quirk-quake/image/car_img.png'),
+    url('/demo/quirk-quake/image/camera_img.png');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position:
+    left top,
+    45% 100%,
+    left bottom;
+  background-size:
+    720px 380px,
+    20% 220px,
+    34% 220px;
+  height: 620px;
+  display: flex;
+  flex-direction: row;
+}
+.boxContent {
+  width: 55%;
+}
+
+.boxContentTwo {
+  display: none;
+}
+
+.headingText {
+  /* background-color: var(--fantasy); */
+  display: inline-block;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  word-spacing: 15px;
+  padding-right: 12px;
+  letter-spacing: 4px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--pickled-bluewood);
+  font-size: 100px;
+}
+
+.headingTextArabic{
+  display: inline-block;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  word-spacing: 15px;
+  padding-right: 12px;
+  letter-spacing: 4px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--pickled-bluewood);
+  font-size: 100px;
+}
+
+.headingTextPhotography {
+  /* background-color: var(--fantasy); */
+  display: inline-block;
+  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 0px;
+  word-spacing: 15px;
+  padding-right: 12px;
+  letter-spacing: 4px;
+  font-weight: 600;
+  color: var(--pickled-bluewood);
+  font-size: 100px;
+}
+
+.contentText {
+  /* background-color: var(--fantasy); */
+  border-bottom-right-radius: 5px;
+  padding-top: 33px;
+  padding-bottom: 12px;
+  color: var(--light-blue);
+}
+
+.bookBtn {
+  margin-top: 22px;
+  /* height: 45px; */
+  height: 78px;
+  font-weight: 500;
+  border-radius: 12px;
+  width: 327px;
+  background-color: var(--tall-poppy);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-evenly;
+}
+
+.bookBtnText {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.arArrow{
+  transform:scaleX(-1); 
+}
+
+@media only screen and (max-width:1280px){
+  .headingText {
+    padding-bottom:22px;
+  }
+}
+
+@media only screen and (min-width:1280px){
+  .headingText {
+    padding-bottom:12px;
+  }
+}
+
+@media only screen and (max-width: 1134px) {
+  .boxBackground {
+    flex-direction: column;
+    background-image: none;
+    height: 100%;
+    width: 100%;
+  }
+  .boxBackgroundRtl {
+    flex-direction: column;
+    background-image: none;
+    height: 100%;
+    width: 100%;
+  }
+  .boxContent {
+    width: 100%;
+  }
+  .boxContentTwo {
+    width: 100%;
+    height: 620px;
+    background-image: url('/demo/quirk-quake/image/child_img_min.png'), url('/demo/quirk-quake/image/car_img_min.png'),
+      url('/demo/quirk-quake/image/camera_img_min.png');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position:
+      left 4%,
+      0% 100%,
+      right bottom;
+    background-size:
+      100% 380px,
+      45% 220px,
+      50% 220px;
+  }
+  .headingText {
+    font-size: 40px;
+  }
+  .headingTextArabic{
+    font-size: 40px;
+  }
+  .headingTextPhotography {
+    font-size: 40px;
+  }
+  .boxContentTwo {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .boxContentTwo {
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position:
+      0% 4%,
+      0% 94%,
+      right 94%;
+    background-size:
+      100% 280px,
+      45% 120px,
+      50% 120px;
+  }
+}

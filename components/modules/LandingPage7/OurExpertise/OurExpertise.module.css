@@ -1,0 +1,155 @@
+.ourExpertiseHeadingSize {
+  font-size: 48px;
+  font-weight: 700;
+  width: 366px;
+  line-height: 60px;
+}
+.ourExpertiseParagraphSize {
+  font-size: 18px;
+}
+.ourExpertiseLeftSection {
+  flex-direction: column;
+  width: 65%;
+  text-align: justify;
+}
+.ourExpertiseRightSection {
+  width: 30%;
+}
+.bookBtn {
+  margin-top: 22px;
+  height: 78px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 12px;
+  width: 372px;
+  background-color: var(--tall-poppy);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  justify-content: center;
+}
+.ourExpertiseImageSection {
+  justify-content: space-between;
+  margin-top: 80px;
+  width: 100%;
+}
+.rightArrowIcon {
+  margin-top: 3px;
+  margin-left: 15px;
+}
+.nextSection {
+  justify-content: flex-end;
+}
+.nextButton {
+  width: 480px;
+  height: 80px;
+  border-radius: 20px;
+  display: flex;
+  border: 1px solid gainsboro;
+}
+.nextOuterSection {
+  width: 440px !important;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nextWithIcon {
+  align-items: center;
+}
+.ourExpertiseOuterContainer {
+  padding-block: 120px;
+  margin-inline: auto;
+}
+.nextImage {
+  border-radius: 20px;
+  width: 260px;
+}
+.personalityImage {
+  border-radius: 20px;
+  width: 303px;
+  height: 400px;
+}
+.personalitySection {
+  margin-top: -270px;
+}
+.culture {
+  border-radius: 20px;
+}
+.cultureSection {
+  margin-top: -160px;
+}
+.mapImage {
+  border-radius: 20px;
+  width: 303px;
+  height: 400px;
+}
+.culture {
+  width: 303px;
+  height: 400px;
+}
+.enArrow{
+  margin-top:6px;
+}
+.arArrow{
+  transform:scaleX(-1); 
+  margin-top:6px;
+}
+@media only screen and (max-width: 1050px) {
+  .ourExpertiseImageSection {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-inline: auto;
+  }
+  .cultureSection {
+    margin-top: 0px;
+  }
+  .personalitySection {
+    margin-top: 0px;
+  }
+  .nextSection {
+    justify-content: flex-end;
+    margin-inline: auto;
+    margin-top: 20px;
+  }
+  .ourExpertiseContainer {
+    flex-direction: column;
+  }
+  .ourExpertiseLeftSection {
+    width: 100%;
+  }
+  .ourExpertiseImageSection {
+    width: fit-content;
+  }
+  .ourExpertiseHeadingSize {
+    width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .bookBtn {
+    width: 300px;
+  }
+  .nextSection {
+    justify-content: flex-end;
+  }
+  .nextOuterSection {
+    width: 240px !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nextButton {
+    width: 280px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+  }
+  .nextImage {
+    border-radius: 20px;
+    width: 200px;
+  }
+  .ourExpertiseHeadingSize {
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 400px;
+  }
+}

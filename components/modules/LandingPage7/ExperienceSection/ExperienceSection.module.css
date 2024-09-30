@@ -1,0 +1,99 @@
+.heading {
+  color: var(--tall-poppy);
+  font-weight: 600;
+}
+.subHeading {
+  margin-top: 10px;
+  color: var(--pickled-bluewood);
+  width: 70%;
+  font-weight: 1000;
+  line-height: 1.2;
+  font-size: 33px;
+}
+.content {
+  width: 80%;
+  color: var(--light-blue);
+  border-bottom-right-radius: 5px;
+  padding-top: 33px;
+}
+.bookBtn {
+  margin-top: 90px;
+  margin-right: 33px;
+  height: 45px;
+  font-weight: 500;
+  border-radius: 12px;
+  width: 210px;
+  background-color: var(--tall-poppy);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.bookBtnArabic{
+  margin-top: 90px;
+  margin-right: 0px;
+  height: 45px;
+  font-weight: 500;
+  border-radius: 12px;
+  width: 210px;
+  background-color: var(--tall-poppy);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.union {
+  width: 500px;
+  height: 400px;
+}
+.experienceSectionDescription {
+  width: 50%;
+}
+.bookBtn {
+  margin-top: 22px;
+  /* height: 45px; */
+  height: 78px;
+  font-weight: 500;
+  border-radius: 12px;
+  width: 327px;
+  background-color: var(--tall-poppy);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-evenly;
+}
+.bookBtnArabic{
+  margin-top: 22px;
+  /* height: 45px; */
+  height: 78px;
+  font-weight: 500;
+  border-radius: 12px;
+  width: 327px;
+  background-color: var(--tall-poppy);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-evenly;
+}
+.bookBtnText {
+  font-size: 20px;
+  font-weight: 500;
+}
+.arArrow {
+  transform: scaleX(-1);
+}
+
+@media only screen and (max-width: 1067px) {
+  .experienceSection {
+    flex-direction: column;
+  }
+  .union {
+    width: 100%;
+    /* height: 400px; */
+  }
+  .experienceSectionDescription {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .bookBtn {
+    margin-top: 40px;
+  }
+}

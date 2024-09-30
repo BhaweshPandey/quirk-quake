@@ -1,0 +1,30 @@
+.footerOuterContainer {
+  height: 80px;
+  margin-block: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerNavMenu {
+  gap: 30px;
+  padding-right: 20px;
+}
+
+.logoColor {
+  color: var(--tall-poppy);
+}
+
+@media only screen and (max-width: 600px) {
+  .footerCompanyLogo {
+    align-self: flex-start;
+  }
+  .footerOuterContainer {
+    flex-direction: column;
+    margin-block: 20px;
+  }
+  .footerNavMenu {
+    gap: 30px;
+    padding-right: 0px;
+    align-self: flex-start;
+  }
+}

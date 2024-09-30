@@ -1,0 +1,148 @@
+.ourWorld {
+  height: 600px;
+  margin-top: 150px;
+  border-radius: 100px;
+  align-items: flex-start;
+  flex-direction: row;
+  padding-left: 100px;
+}
+.ourWorldRtl {
+  height: 600px;
+  margin-top: 150px;
+  border-radius: 100px;
+  align-items: flex-start;
+  flex-direction: row;
+  padding-right: 100px;
+}
+.stepIntoOurWorld {
+  justify-content: center;
+  height: 100%;
+}
+.stepIntoOurWorldRtl {
+  justify-content: center;
+  height: 100%;
+}
+.ourWorldImageSection {
+  justify-content: flex-start;
+  position: relative;
+}
+.headingSize {
+  font-size: 64px;
+  font-weight: 600;
+}
+.paragraphSize {
+  font-size: 18px;
+  font-weight: 400;
+  width: 637px;
+  padding-right: 10px;
+}
+.bookBtn {
+  margin-top: 22px;
+  height: 78px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 12px;
+  width: 319px;
+  background-color: var(--fantasy);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  justify-content: center;
+}
+.stepIntoOurWorldImage {
+  margin-top: -20px;
+  max-width: 450.06px;
+  max-height: 547.4px;
+  position: absolute;
+  right: -15px;
+}
+.stepIntoOurWorldImageRtl {
+  margin-top: -20px;
+  max-width: 450.06px;
+  max-height: 547.4px;
+  position: absolute;
+  left:-10px;
+}
+.arArrow{
+  transform:scaleX(-1); 
+}
+@media only screen and (max-width: 1150px) {
+  .ourWorld {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+    height: 100%;
+  }
+  .ourWorldRtl {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+    padding-right:0px;
+    height: 100%;
+  }
+  .stepIntoOurWorld {
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    margin-top: 40px;
+    align-self: center;
+  }
+  .stepIntoOurWorldRtl{
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    margin-top: 40px;
+    align-self: center;
+  }
+  .ourWorldImageSection {
+    align-self: center;
+    justify-content: center;
+    margin-inline: 0px;
+    padding-right: 0px;
+  }
+  .headingSize {
+    font-size: 34px;
+    font-weight: 600;
+  }
+  .paragraphSize {
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    padding-right: 10px;
+  }
+  .bookBtn {
+    margin-top: 22px;
+    height: 78px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 12px;
+    width: 300px;
+    background-color: var(--fantasy);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+    justify-content: center;
+  }
+  .stepIntoOurWorldImage {
+    margin-top: 20px;
+    max-width: 450.06px;
+    max-height: 547.4px;
+    padding-inline: 20px;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    position: static;
+    right: 0px;
+  }
+  .stepIntoOurWorldImageRtl {
+    margin-top: 20px;
+    max-width: 450.06px;
+    max-height: 547.4px;
+    padding-inline: 20px;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    position: static;
+    right: 0px;
+  }
+}
